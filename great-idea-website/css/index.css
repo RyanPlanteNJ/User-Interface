@@ -66,51 +66,90 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .shell {
-	width: 100%;
-	margin: 0 auto;
+	width: 1800px;
+	margin: 0px;
 }
 
 .header {
-		margin: 2%;
+		padding: 1%;
+		margin: 1%;
+		width: 100%;
 }
 
-nav a{
-	padding: 0 5% 0 5%;
+.header header a{
 	text-decoration: none;
+	margin: 0 5%;
 	color: gray;
 	font-size: 20px;
+	text-align: center;
+	width: CALC(21% - 200px);
 }
 
-nav img{
+.header header img{
 	padding-left: 7%;
 }
 
-.get-started{
+.content_1{
 	margin: 1%;
 	width: 100%;
 }
 
-.content2 {
-	border: 2px solid  blue;
+.content_1_box {
 	vertical-align: top;
-	margin: 1%;
 	width: 48%;
   display: inline-block;
 	text-align: center;
 }
-.left h1 {
+.content_1_box h1 {
 	font-size: 100px;
-  width: 30%;
+  width: 43%;
 	display: inline-block;
 }
 
-.left p{
+.content_1_box p{
 	border: 1px black solid;
 	font-size: 20px;
 	width: 20%;
-	margin: 0 0 0 450px;
+	padding: 5px 0 5px 0;
+	margin: 0 0 0 350px;
 }
 
-.right{
+.content_2{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	margin: 3%;
+	padding: 1%;
+	width: 100%;
+}
 
+.content_2_mid{
+	padding: 1%;
+	width: 48%;
+	display: inline-block;
+}
+
+.content_2_mid h2{
+	font-size: 50px;
+}
+
+.content_2_mid p{
+	font-size: 30px;
+}
+
+.break img{
+	width: 100%;
+}
+
+.content_3_mid{
+	padding: 1%;
+	width: 33%;
+	display: inline-block;
+}
+
+.content_3_mid h2{
+	font-size: 50px;
+}
+
+.content_3_mid p{
+	font-size: 30px;
 }
