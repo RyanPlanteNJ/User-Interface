@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5 {
 .navgation{
 		width: 1800px;
 		top: 0px;
-		background-color:#714d9f;
+		background-image: linear-gradient(to right,#260c7d , #159fcc, #1e979a);
 		position: fixed;
 		z-index: 0;
 }
@@ -102,7 +102,6 @@ h1, h2, h3, h4, h5 {
 
 .main{
 	padding: 10%;
-	overflow: hidden;
 }
 
 
