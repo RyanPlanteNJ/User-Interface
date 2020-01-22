@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5 {
 .content_2{
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
-	margin: 3%;
+	margin: 2%;
 	padding: 1%;
 	width: 100%;
 }
@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .content_2_mid h2{
-	font-size: 50px;
+	font-size: 30px;
 }
 
 .content_2_mid p{
@@ -147,9 +147,28 @@ h1, h2, h3, h4, h5 {
 }
 
 .content_3_mid h2{
-	font-size: 50px;
+	font-size: 30px;
 }
 
 .content_3_mid p{
 	font-size: 30px;
+}
+
+.contact {
+	margin: 3%;
+}
+
+.contact h2{
+	font-size: 30px;
+}
+
+.contact p{
+	font-size: 30px;
+}
+
+footer{
+	padding: 1%;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
 }
